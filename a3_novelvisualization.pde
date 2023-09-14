@@ -16,7 +16,7 @@ void draw() {
   int posY = 32;
   ArrayList<String> displayedWords = new ArrayList<String>();
 
-  for (int j = 0; j < uniqueWords.length; j++) {
+  for (int i = 0; i < uniqueWords.length; i++) {
     int randomIndex = (int)random(0, uniqueWords.length);
 
     // Check if word already displayed
@@ -42,7 +42,7 @@ void draw() {
       }
       posY += 32;
       posX = 0;
-      j--; // try again with the same word on the next line
+      i--; // try again with the same word on the next line
       continue;
     } 
 
