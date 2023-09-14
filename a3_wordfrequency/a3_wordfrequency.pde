@@ -19,7 +19,7 @@ void setup() {
   int availableWidth = width - 2 * xPadding;
   barWidth = availableWidth / numRanges;  
   parseData();
-  font = createFont("Times New Roman", 28);
+  font = createFont("Open Sans", 28);
   textFont(font);
   smooth();
 }
