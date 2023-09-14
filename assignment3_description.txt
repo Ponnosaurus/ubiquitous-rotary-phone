@@ -4,7 +4,7 @@ From there, we have done the same for uniquewords and wordfequency.txt to displa
 
 We then picked the font of Times New Roman, which created the space and with a font of 28. Then, we created a word chart with color coded of green, red and blue to produce this. The canvas can be refreshed with new words.
 
-From there, we created a bar chart visualization through a loop that separated the wordfrequency text into the number and how frequent it appeared meme, looping through to produce a color coded bar chart with a mouse pointer that allows us to see the frequency over 4 distinct ranges.
+From there, we created a bar chart visualization through a loop that separated the wordfrequency text into the number and how frequent it appeared in intervals, looping through to produce a color coded bar chart with a custom coded mouse pointer that allows us to see the frequency over 4 distinct ranges.
 
 Other features include a randomized word feature approach with a new pattern each time the canvas is refreshed, and a gradient color scheme between red and green. The software relied upon was Processing 3.x for visualization, with no unresolved issues. 
 
