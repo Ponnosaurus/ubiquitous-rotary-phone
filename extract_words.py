@@ -9,7 +9,7 @@ freqdict = defaultdict(int)
 # lowercase and separating words into allwords.txt while incrementing frequency in worddict for each word
 for line in novel:
     if line.strip():
-        for word in re.findall('[a-z]+',line.lower()):
+        for word in re.findall("[a-z]+'?[a-z]*-?[a-z]+'?[a-z]*", line.lower()):
             allwords.write(word + '\n')
             worddict[word] += 1
 allwords.close()
