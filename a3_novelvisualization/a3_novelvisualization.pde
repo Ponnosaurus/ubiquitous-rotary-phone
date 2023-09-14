@@ -5,7 +5,7 @@ void setup() {
   size(700, 600);
   String file = "uniquewords.txt";
   uniqueWords = loadStrings(file);
-  customFont = createFont("Open Sans", 28);
+  customFont = createFont("Times New Roman", 28);
   noLoop();
 }
 
@@ -34,7 +34,8 @@ void draw() {
     } else {
       fill(#3357FF);  // blue
     }
-
+    
+    
     int nextWordWidth = (int)textWidth(uniqueWords[randomIndex] + " "); 
     if (posX + nextWordWidth > 700) {
       if (posY > 570) {
